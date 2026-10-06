@@ -1,0 +1,13 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: "astracore"
+    sources:
+      youtube: false   # Disattiva la vecchia sorgente interna
+
+plugins:
+  youtube:
+    enabled: true      # Attiva il plugin YouTube v2
